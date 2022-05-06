@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "DOM.Iterable",
+            "es2017"
+        ],
+        "noEmit": false,
+        "outDir": "./dist",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "checkJs": false,
+        "target": "es5",
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "downlevelIteration": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./src/*"
+            ]
+        },
+        "sourceMap": true,
+        "typeRoots": [
+            "typings/**/*.d.ts",
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "src",
+        "typings/**/*.d.ts",
+        "./node_modules/@types"
+    ]
+}

@@ -1,0 +1,1 @@
+sat-selection-module-client
