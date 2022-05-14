@@ -1,1 +1,1 @@
-sat-selection-module-client
+Шаблон для React-Redux-Saga приложений.
